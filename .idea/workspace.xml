@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99b97d19-cc3b-4ec7-a9d1-0660225a098b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex01_SampleChecks/APITesting0001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex01_SampleChecks/APITesting003_NoDesignPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex01_SampleChecks/APITesting004_BuilderPatternDesignPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Get/APITesting0006GET_BDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Get/APITesting007_GET_BDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Get/APITesting008_GET_NonBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-NonBDD.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2qNlxivjWHKxn67M8t3mInEgOZv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.APITesting0006GET_BDDStyle.executor": "Run",
+    "Application.APITesting002.executor": "Run",
+    "Application.APITesting004_BuilderPatternDesignPattern.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-NonBDD.xml.executor": "Run",
+    "TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng.xml.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\samar\IdeaProjects\ATB9xAPIAutomationPrograms" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-NonBDD.xml">
+    <configuration name="APITesting0006GET_BDDStyle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ex02_RestAssuredBasics.Get.APITesting0006GET_BDDStyle" />
+      <module name="ATB9xAPIAutomationPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ex02_RestAssuredBasics.Get.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITesting002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ex01_SampleChecks.APITesting002" />
+      <module name="ATB9xAPIAutomationPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ex01_SampleChecks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-NonBDD.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9xAPIAutomationPrograms" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-NonBDD.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9xAPIAutomationPrograms" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-NonBDD.xml" />
+        <item itemvalue="TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng.xml" />
+        <item itemvalue="Application.APITesting0006GET_BDDStyle" />
+        <item itemvalue="Application.APITesting002" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99b97d19-cc3b-4ec7-a9d1-0660225a098b" name="Changes" comment="" />
+      <created>1734511184432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734511184432</updated>
+    </task>
+    <servers />
+  </component>
+</project>

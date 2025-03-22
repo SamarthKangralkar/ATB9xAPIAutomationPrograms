@@ -4,24 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99b97d19-cc3b-4ec7-a9d1-0660225a098b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex01_SampleChecks/APITesting0001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex01_SampleChecks/APITesting003_NoDesignPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex01_SampleChecks/APITesting004_BuilderPatternDesignPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Get/APITesting0006GET_BDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Get/APITesting007_GET_BDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Get/APITesting008_GET_NonBDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-NonBDD.xml" afterDir="false" />
+    <list default="true" id="99b97d19-cc3b-4ec7-a9d1-0660225a098b" name="Changes" comment="API Testing Programs">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex01_SampleChecks/APITestingRestfulBooker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Delete/APITestDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Patch/APITestPatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Post/APITestNonBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Post/APITestingBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Put/APITestNonBDDStyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex01_SampleChecks/APITesting003_NoDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex01_SampleChecks/APITesting003_NoDesignPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +29,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SamarthKangralkar&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SamarthKangralkar/ATB9xAPIAutomationPrograms&quot;,
+    &quot;accountId&quot;: &quot;3cb3b4f1-f3b8-47af-b2fd-b60f3b6f06d2&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2qNlxivjWHKxn67M8t3mInEgOZv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,9 +57,15 @@
     "Application.APITesting0006GET_BDDStyle.executor": "Run",
     "Application.APITesting002.executor": "Run",
     "Application.APITesting004_BuilderPatternDesignPattern.executor": "Run",
+    "Application.APITestingRestfulBooker.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.APITestDelete.executor": "Run",
+    "TestNG.APITestNonBDDStyle.APITest.executor": "Run",
+    "TestNG.APITestNonBDDStyle.executor": "Run",
+    "TestNG.APITestPatch.executor": "Run",
+    "TestNG.APITestingBDDStyle.executor": "Run",
     "TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-NonBDD.xml.executor": "Run",
     "TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng.xml.executor": "Run",
     "git-widget-placeholder": "master",
@@ -71,7 +82,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-NonBDD.xml">
+  <component name="RunManager">
     <configuration name="APITesting0006GET_BDDStyle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ex02_RestAssuredBasics.Get.APITesting0006GET_BDDStyle" />
       <module name="ATB9xAPIAutomationPrograms" />
@@ -98,6 +109,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="APITestNonBDDStyle.APITest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9xAPIAutomationPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ex02_RestAssuredBasics.Post.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ex02_RestAssuredBasics.Post" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex02_RestAssuredBasics.Post.APITestNonBDDStyle" />
+      <option name="METHOD_NAME" value="APITest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-NonBDD.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB9xAPIAutomationPrograms" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-NonBDD.xml" />
@@ -120,6 +149,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.APITestNonBDDStyle.APITest" />
         <item itemvalue="TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-NonBDD.xml" />
         <item itemvalue="TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng.xml" />
         <item itemvalue="Application.APITesting0006GET_BDDStyle" />
@@ -136,6 +166,19 @@
       <option name="presentableId" value="Default" />
       <updated>1734511184432</updated>
     </task>
+    <task id="LOCAL-00001" summary="API Testing Programs">
+      <option name="closed" value="true" />
+      <created>1735292785119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735292785119</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="API Testing Programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="API Testing Programs" />
   </component>
 </project>

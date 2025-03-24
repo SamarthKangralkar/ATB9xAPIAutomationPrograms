@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99b97d19-cc3b-4ec7-a9d1-0660225a098b" name="Changes" comment="API Testing Programs">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex01_SampleChecks/APITestingRestfulBooker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Delete/APITestDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Patch/APITestPatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Post/APITestNonBDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Post/APITestingBDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex02_RestAssuredBasics/Put/APITestNonBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex03_TestNGExamples/TestNGExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex03_TestNGExamples/TestNGParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ex03_TestNGExamples/TestNG_Grouping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-example-1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-parameter.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ex01_SampleChecks/APITesting003_NoDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ex01_SampleChecks/APITesting003_NoDesignPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,11 @@
     "TestNG.APITestPatch.executor": "Run",
     "TestNG.APITestingBDDStyle.executor": "Run",
     "TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-NonBDD.xml.executor": "Run",
+    "TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-example-1.xml.executor": "Run",
     "TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng.xml.executor": "Run",
+    "TestNG.TestNGExample1.executor": "Run",
+    "TestNG.TestNGParameter.executor": "Run",
+    "TestNG.TestNG_Grouping.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms",
@@ -82,33 +84,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="APITesting0006GET_BDDStyle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ex02_RestAssuredBasics.Get.APITesting0006GET_BDDStyle" />
-      <module name="ATB9xAPIAutomationPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ex02_RestAssuredBasics.Get.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="APITesting002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ex01_SampleChecks.APITesting002" />
-      <module name="ATB9xAPIAutomationPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.ex01_SampleChecks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-parameter.xml">
     <configuration name="APITestNonBDDStyle.APITest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB9xAPIAutomationPrograms" />
       <extension name="coverage">
@@ -127,9 +103,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-NonBDD.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-example-1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB9xAPIAutomationPrograms" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-NonBDD.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-example-1.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -137,10 +113,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-parameter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB9xAPIAutomationPrograms" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-parameter.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGExample1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9xAPIAutomationPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ex03_TestNGExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ex03_TestNGExamples" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex03_TestNGExamples.TestNGExample1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGParameter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB9xAPIAutomationPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ex03_TestNGExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ex03_TestNGExamples" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ex03_TestNGExamples.TestNGParameter" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -149,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-parameter.xml" />
+        <item itemvalue="TestNG.TestNGParameter" />
+        <item itemvalue="TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-example-1.xml" />
+        <item itemvalue="TestNG.TestNGExample1" />
         <item itemvalue="TestNG.APITestNonBDDStyle.APITest" />
-        <item itemvalue="TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng-NonBDD.xml" />
-        <item itemvalue="TestNG.C:/Users/samar/IdeaProjects/ATB9xAPIAutomationPrograms/testng.xml" />
-        <item itemvalue="Application.APITesting0006GET_BDDStyle" />
-        <item itemvalue="Application.APITesting002" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +184,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735292785119</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="API Testing Programs">
+      <option name="closed" value="true" />
+      <created>1742652626997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742652626997</updated>
+    </task>
+    <task id="LOCAL-00003" summary="API Testing Programs">
+      <option name="closed" value="true" />
+      <created>1742652699153</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742652699155</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
